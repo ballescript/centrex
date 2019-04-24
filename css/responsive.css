@@ -1,0 +1,38 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	.banner-txt {bottom:200px;}
+	h1 {line-height: 40px; font-size: 38px;}
+	.banner-txt .button { font-size:20px;}
+		
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 767px) { 
+
+	.banner-txt { position:relative; bottom:0px; left:0px; background:#333; text-align:center;}
+	.no-pad { padding:0px !important;}
+	h1 {line-height: 38px; font-size: 35px;}
+	.banner-txt .button { font-size:20px;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) { 
+
+	
+	.footer-sec { text-align:center;}
+	.social { float:none; margin:0 auto;}
+	.banner-txt { position:relative; bottom:0px; left:0px; background:#333; text-align:center;}
+	.no-pad { padding:0px !important;}
+	h1 { line-height: 38px; font-size: 35px;}
+	.banner-txt .button { font-size:20px;}	
+	.timeline-img { text-align:center; margin-bottom:20px;}
+	.wrapper { height:auto;}
+
+}
+
+@media only screen and (max-width: 480px) { 
+	
+	h1 { line-height: 28px; font-size: 25px; }
+	h2 { font-size: 24px; line-height: 24px;}
+    .button { display: inline-block;}
+}
